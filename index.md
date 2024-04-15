@@ -1,5 +1,5 @@
 Hello and welcome to this blog. 
-
+![Welcome banner](images/banner.png)
 ![Image of fast.ai logo](images/logo.png)
 
 
