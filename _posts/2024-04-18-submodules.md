@@ -1,4 +1,5 @@
 # Setting up submodules in your repo
+
 Sometimes, when working cross-project or with code that's been cloned from
 elsewhere, it helps to add them as a submodule to a main repo.
 
@@ -9,6 +10,9 @@ on a CPU and GPU, all of which are in different repos upon set up.
 Without submoduling, each time I log in to a remote desktop session to
 remote lab computers, I'd need to clone each of these repos individually
 which is a lot more effort than it's worth.
+
+1. TOC
+{:toc}
 
 ## Steps to add a submodule repo
 ### 1. Clone your main repo
@@ -34,4 +38,4 @@ And voila! You should be able to verify that a submodule has been added on githu
 
 
 ## Steps to clone your repo with submodules
-Now, when  
+Now, when
