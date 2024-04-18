@@ -1,9 +1,10 @@
 ---
 layout: post
 title:  "Setting up and using Submodules in your Repo"
+author: Rachel
+image: ../images/submodules-img.png
 ---
 # Setting up submodules in your repo
-
 Sometimes, when working cross-project or with code that's been cloned from
 elsewhere, it helps to add them as a submodule to a main repo. For example,
 for assignment 2 I need to write a blog (this one!), generate a fingerprint
@@ -13,6 +14,8 @@ on a CPU and GPU, all of which are in different repos upon set up.
 Without submoduling, each time I log in to a remote desktop session to
 remote lab computers, I'd need to clone each of these repos individually
 which is a lot more effort than it's worth.
+
+ ![Submodules on Github](../images/submodules-img.png)
 
 1. TOC
 {:toc}
