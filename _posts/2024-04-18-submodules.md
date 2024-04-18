@@ -1,3 +1,8 @@
+---
+layout: post
+title:  "Setting up and using Submodules in your Repo"
+---
+
 # Setting up submodules in your repo
 
 Sometimes, when working cross-project or with code that's been cloned from
