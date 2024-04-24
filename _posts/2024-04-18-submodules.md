@@ -15,7 +15,7 @@ Without submoduling, each time I log in to a remote desktop session to
 remote lab computers, I'd need to clone each of these repos individually
 which is a lot more effort than it's worth.
 
- ![Submodules on Github](../images/submodules-img.png)
+ ![Submodules on Github](/images/submodules-img.png)
 
 1. TOC
 {:toc}
