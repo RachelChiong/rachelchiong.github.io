@@ -2,57 +2,9 @@
 ---
 @import "{{ site.theme }}";
 
-:root {
-        // Variable for the light mode
-        --bg-color: #f2f2f2; // Background color
-        --font-serif: "Libre Baskerville", serif; // Serif font
-        --font-sansserif: "Chakra Petch", sans-serif; // Sans-Serif font
-        --font-color: #333333; // Font color
-        --font-size: 22px; // Font size
-        --header-color: #fa50a5;
-        --text-width: 35em; // Width of the area where the content of the pages and posts are displayed
-        --text-font: var(--font-serif); // Default font for the text
-        --line-height: calc(var(--font-size) * 2); // Line height
-        --custom-color: cyan; // Complementary color, for the lines and underlinings
-        --lines: linear-gradient(
-          to top,
-          var(--custom-color) 50%,
-          rgba(255, 255, 255, 0) 50%
-        ); // Lines
-        --quote-color: #e7e8ea; // Background-color for quotes
-        --dark-mode-label: "DARK MODE"; // Label displayed in the header to toggle dark mode
-        --light-mode-label: "LIGHT MODE"; // Label displayed in the header to toggle light mode
-        --typo-plus-label: "A+"; // Label displayed in the header to enlarge the font size
-        --typo-moins-label: "A-"; // Label displayed in the header to reduce the font size
-        --sans-serif-label: " SANS-SERIF FONT"; // Label displayed at the top of posts to change the font-style to sans-serif
-        --serif-label: "SERIF FONT"; // Label displayed at the top of posts to change the font-style to serif
-      }
-
-
-h1, h2, h3 {
-        font-family: "Chakra Petch", serif;
-        color: #fa50a5;
-}
-
-p {
-        font-family: 'Times New Roman', Times, serif;
-}
-
-.page-content {
-        background-image: url("../images/background-img.jpeg");
-        background-size: 450px;
-        background-repeat: repeat;
-}
-
-.wrapper {
-        max-width: 1200px;
-        padding: 3% 5%;
-        background-color: RGBA(255, 255, 255, 0.85);
-        backdrop-filter: blur(15px);
-        border-style: dashed;
-        border-color: cyan;
-        border-width: 6px;
-}
+// h1 {
+//         font-family: 'Times New Roman', Times, serif;
+// }
 
 .post img {
         display: block;
@@ -160,7 +112,7 @@ p {
 
 
 .container {
-        max-width: 1500px;
+        max-width: 1200px;
         margin-left: auto;
         margin-right: auto;
 }
@@ -198,7 +150,6 @@ p {
         &__left {
                 max-width: 300px;
                 height: auto;
-                box-shadow: 10px 5px 5px RGBA(0, 0, 0, 0.2);
         }
 
         &__right {
@@ -211,7 +162,6 @@ p {
 .preview-title {
         display: block;
         font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
         font-size: 1.2rem;
         margin-bottom: 10px;
 }
@@ -233,42 +183,3 @@ p {
                 }
         }
 }
-
-/** HEADER **/
-header {
-        font-family: var(--font-sansserif);
-        text-transform: uppercase;
-        margin: 30px;
-        line-height: calc(var(--line-height) / 1.5);
-      }
-
-      .site_title {
-        text-transform: uppercase;
-        display: inline-block;
-        font-size: calc(var(--font-size) * 2.5);
-        padding-bottom: 5px;
-        font-weight: bold;
-        background: none;
-      }
-
-      .pages_links {
-        display: inline-block;
-        font-size: calc(var(--font-size) * 1.5);
-        padding-right: 20px;
-        font-weight: bold;
-      }
-
-      .pages_names {
-        background: var(--lines);
-        background-repeat: no-repeat;
-        background-size: 100% 100%;
-        transition: background-size 0.5s 0s;
-        padding-bottom: 5px;
-        &:hover {
-          background-size: 0% 100%;
-        }
-      }
-
-      .site_functions {
-        margin-top: 10px;
-      }
